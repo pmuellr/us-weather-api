@@ -1,0 +1,25 @@
+{
+  "name":               "us-weather-api",
+  "main":               "./lib/us-weather-api",
+  "description":        "library of functions to access US Weather forecasts",
+  "author":             "pmuellr",
+  "version":            "0.1.0",
+  "licenses":           [{ "type": "Apache License" }],
+  "homepage":           "https://github.com/pmuellr/us-weather-api",
+  "bugs":               "https://github.com/pmuellr/us-weather-api/issues",
+  "repository":         {"type": "git", "url": "git://github.com/pmuellr/us-weather-api" },
+  "dependencies":
+    {
+      "htmlparser":           "1.7.x",
+      "q":                    "1.0.0",
+      "soupselect":           "0.2.x",
+      "underscore":           "1.5.x"
+    },
+  "devDependencies":
+    {
+      "coffee-script":        "1.6.x",
+      "expect.js":            "0.2.x",
+      "mocha":                "1.17.x",
+      "semver":               "2.2.x"
+    }
+}
